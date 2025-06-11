@@ -19,14 +19,17 @@ public class Ex7 {
     }
 
     public static double calculate_taxi(int km){
-        if(km <= 1){
+        if(km <= 1 && km >= 0){
             return 15000;
         }
-        else if(km <= 6){
+        else if(km <= 5 && km > 1){
             return 15000 + (km - 1) * 13500;
         }
-        else{
-            return 15000 + 5 * 13500 + (km - 6) * 11000;
+        else if(km > 5 && km <= 120){
+            return (15000 + 4 * 13500 + (km - 5) * 11000);
+        }
+        else {
+            return (15000 + 4 * 13500 + (km - 5) * 11000) * 0.9;
         }
     }
 }

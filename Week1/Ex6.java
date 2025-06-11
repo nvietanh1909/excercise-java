@@ -22,10 +22,10 @@ public class Ex6 {
         if(point >= 8 && point <= 10){
             return "A";
         }
-        else if(point >= 7 && point < 8){
+        else if(point >= 7 && point < 7.9){
             return "B";
         }
-        else if(point >= 5 && point < 7){
+        else if(point >= 5 && point < 6.9){
             return "C";
         }
         else{

@@ -20,6 +20,14 @@ Trường hợp 4: Nếu không trùng khớp thì in ra thông báo “Sorry, n
     public static void main(String[] args) {
         menu();
         input.close();
+        /*
+        int songuoichoi = 1;
+        for(int i = 0; i < songuoichoi; i++){
+            new Thread(() -> {
+                menu();
+            }).start();
+        }
+        */
     }
 
     public static void menu(){

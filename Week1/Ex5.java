@@ -20,13 +20,13 @@ public class Ex5 {
     }
 
     public static double calculate_tax_person(double salary){
-        if(salary < 5000000){
+        if(salary < 5000000 && salary >= 0){
             return 0;
         }
-        else if(salary <= 10000000){
+        else if(salary <= 10000000 && salary >= 5000000){
             return salary * 0.1;
         }
-        else if(salary <= 18000000){
+        else if(salary <= 18000000 && salary >= 10000000){
             return salary * 0.15;
         }
         else{
