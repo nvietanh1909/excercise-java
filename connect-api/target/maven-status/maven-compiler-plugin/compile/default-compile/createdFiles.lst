@@ -1,0 +1,8 @@
+com\example\page\auth\LoginPage.class
+com\example\api\AuthAPI.class
+com\example\page\book\BookAddPage.class
+com\example\App.class
+com\example\config\TokenConfig.class
+com\example\config\UrlConfig.class
+com\example\model\BookModel.class
+com\example\api\BookAPI.class
